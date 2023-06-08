@@ -10,3 +10,7 @@ class Employee:
         self.salary += increase
         messages = f"{self.first}{self.name}'s salary is {self.salary}"
         return messages
+
+
+def greet_user():
+    print("hello,world!")
